@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Exemplo HTML - Produtividade-IDW</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      <div class="brand">
+        <h1>Produtividade-IDW</h1>
+        <p class="subtitle">Pequeno demo de UI para músicas</p>
+      </div>
+      <div class="controls">
+        <label for="search-music" class="visually-hidden">Pesquisar</label>
+        <input id="search-music" class="search" type="search" placeholder="Pesquisar músicas ou artistas..." aria-label="Pesquisar músicas">
+      </div>
+    </header>
+
+    <main>
+      <section> <!--A tag "section" é um agrupamento semântico de conteúdo relacionado dentro do <main>.-->
+      <h2>Conteúdo de demonstração</h2>
+      <p>Este é um arquivo de exemplo para testar a estrutura básica e o CSS.</p>
+      <a class="btn" href="#">Botão de exemplo</a>
+
+      <!-- Lista de músicas (renderizada por app.js) -->
+      <div id="lista-de-musicas" class="musicas-grid" aria-label="Lista de músicas"></div>
+    </section>
+  </main>
+  </div>
+
+  <footer>
+    <small>© 2025 Produtividade-IDW</small>
+  </footer>
+  <script src="app.js" defer></script>
+</body>
+</html>
